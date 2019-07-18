@@ -1,5 +1,6 @@
 {
   "name": "freshman-project",
+  "homepage": "https://github.com/6ne/freshman-project",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
