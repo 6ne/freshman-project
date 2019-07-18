@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.2cce8147.chunk.css",
-    "main.js": "/static/js/main.28647029.chunk.js",
-    "main.js.map": "/static/js/main.28647029.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.b41502e9.chunk.js": "/static/js/2.b41502e9.chunk.js",
-    "static/js/2.b41502e9.chunk.js.map": "/static/js/2.b41502e9.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.054774adbe886ee6e3c29227ef1745b5.js": "/precache-manifest.054774adbe886ee6e3c29227ef1745b5.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.2cce8147.chunk.css.map": "/static/css/main.2cce8147.chunk.css.map",
-    "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg"
+    "main.css": "/freshman-project/static/css/main.2cce8147.chunk.css",
+    "main.js": "/freshman-project/static/js/main.d30b1173.chunk.js",
+    "main.js.map": "/freshman-project/static/js/main.d30b1173.chunk.js.map",
+    "runtime~main.js": "/freshman-project/static/js/runtime~main.6eb0defb.js",
+    "runtime~main.js.map": "/freshman-project/static/js/runtime~main.6eb0defb.js.map",
+    "static/js/2.b41502e9.chunk.js": "/freshman-project/static/js/2.b41502e9.chunk.js",
+    "static/js/2.b41502e9.chunk.js.map": "/freshman-project/static/js/2.b41502e9.chunk.js.map",
+    "index.html": "/freshman-project/index.html",
+    "precache-manifest.4d302f40bba42995e02a2c80e8c6e842.js": "/freshman-project/precache-manifest.4d302f40bba42995e02a2c80e8c6e842.js",
+    "service-worker.js": "/freshman-project/service-worker.js",
+    "static/css/main.2cce8147.chunk.css.map": "/freshman-project/static/css/main.2cce8147.chunk.css.map",
+    "static/media/logo.svg": "/freshman-project/static/media/logo.5d5d9eef.svg"
   }
 }
