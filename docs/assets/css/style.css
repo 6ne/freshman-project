@@ -1,4 +1,4 @@
-* { transition: 0.5s }
+/** { transition: 0.5s }*/
 
 :root {
   --dark: #252B39;
@@ -31,7 +31,9 @@ i { margin-right: 5px }
 .font-10 { font-size: 10px }
 .font-12 { font-size: 12px }
 .font-16 { font-size: 16px }
+.font-20 { font-size: 20px }
 .font-24 { font-size: 24px }
+.font-30 { font-size: 30px }
 
 .icon-text {
   align-items: center;
@@ -43,16 +45,16 @@ i { margin-right: 5px }
   flex-direction: column;
 }
 
-.box > * { padding: 0 1% }
+.box > * { padding: 1.5% 3%}
 
 .box > .head {
-  border-radius: 5px 5px 0 0;
+  border-radius: 8px 8px 0 0;
   background-color: var(--light);
   border-bottom: solid 1px var(--yellow);
 }
 
 .box > .body {
-  border-radius: 0 0 5px 5px;
+  border-radius: 0 0 8px 8px;
   background-color: var(--white);
   color: var(--black);
   margin: 0;
@@ -74,3 +76,92 @@ footer {
   flex-direction: column;
   margin-bottom: 5%
 }
+
+
+.heading, .sub-heading {
+  width: 75%;
+}
+
+.heading {
+  margin-top: 15%;
+}
+
+.sub-heading {
+  margin: 40% 0 0 25%;
+  text-align: right;
+}
+
+.button {
+  background-color: var(--yellow);
+  text-align: center;
+  width: 50%;
+  padding: 2%;
+  border-radius: 35px;
+  margin: 60% auto 10% auto;
+}
+
+.circle {
+  width: 375px;
+  height: 375px;
+  background-color: var(--light);
+  position: absolute;
+  border-radius: 50%;
+  left: -25%;
+  top: 27.5%;
+  opacity: .25;
+}
+
+.column-parent {
+  display: flex;
+  flex-direction: column;
+}
+.column {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 1.5% 0;
+}
+.sub-column {
+  display: flex;
+  flex-direction: column;
+  border: solid 2px var(--white);
+  padding: 3%;
+  width: 100%;
+  border-radius: 10px;
+}
+.subject, .attention p {
+  text-align: right;
+}
+
+.attention {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.attention p {
+  padding: 1.5% 3%;
+  background-color: var(--light);
+  border-radius: 8px;
+  width: 80%;
+}
+.triangle {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 15px 15px 15px;
+  border-color: transparent transparent var(--light) transparent;
+  position: absolute;
+  right: 10%;
+}
+
+.pricing .title, .special-price .title, .notes .title {
+    border-bottom: solid 3px;
+    padding-bottom: 1.5%;
+}
+
+.pricing p {
+  margin: 5% 0;
+}
+
+.column-margin-left { margin-left: 1% }
+.column-margin-right { margin-right: 1.5% }
