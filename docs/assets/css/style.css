@@ -77,7 +77,6 @@ footer {
   margin-bottom: 5%
 }
 
-
 .heading, .sub-heading {
   width: 75%;
 }
@@ -125,7 +124,7 @@ footer {
   display: flex;
   flex-direction: column;
   border: solid 2px var(--white);
-  padding: 3%;
+  padding: 2%;
   width: 100%;
   border-radius: 10px;
 }
