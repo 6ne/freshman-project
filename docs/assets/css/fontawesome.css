@@ -1,4 +1,4 @@
-.fa{
+.fa {
   font-family: "_";
   font-size: 2em;
   font-style: normal;
@@ -6,28 +6,17 @@
   text-rendering: auto
 }
 
-.github:before {
-  content: "\f09b"
-}
+.github:before { content: "\f09b" }
 
-.line:before {
-  content: "\f3c0"
-}
+.line:before { content: "\f3c0" }
 
-.linkedin:before {
-  content: "\f08c"
-}
+.linkedin:before { content: "\f08c" }
 
-.medium:before {
-  content: "\f23a"
-}
+.medium:before { content: "\f23a" }
 
-.whatsapp:before {
-  content: "\f232"
-}
+.whatsapp:before { content: "\f232" }
 
 @font-face {
   font-family: "_";
-  src: url(../font/fontawesome.eot);
-  src: url(../font/fa.eot?#iefix) format("embedded-opentype"), url(../font/fontawesome.woff2) format("woff2"), url(../font/fontawesome.woff) format("woff"), url(../font/fontawesome.ttf) format("truetype"), url(../font/fontawesome.svg#fontawesome) format("svg")
+  src: local('Font Awesome'), local('Font-Awesome'), local('font-awesome'), url(../font/fontawesome.ttf) format("truetype")
 }
