@@ -1,22 +1,22 @@
 const $CACHE_STORE = 'freshman-project'
 const $FILES = [
-  '/',
-  '/index.html',
-  '/assets/css/fontawesome.min.css',
-  '/assets/css/poppins.min.css',
-  '/assets/css/style-desktop.css',
-  '/assets/css/style-tablet.css',
-  '/assets/css/style.css',
-  '/assets/font/fontawesome.ttf',
-  '/assets/font/poppins.woff2',
-  '/assets/img/favicon/128.ico',
-  '/assets/img/favicon/64.ico',
-  '/assets/img/favicon/32.ico',
-  '/assets/img/favicon/16.ico',
-  '/assets/img/logo/128.png',
-  '/assets/img/logo/64.png',
-  '/assets/img/logo/32.png',
-  '/assets/img/logo/16.png'
+  './',
+  './index.html',
+  './assets/css/fontawesome.min.css',
+  './assets/css/poppins.min.css',
+  './assets/css/style-desktop.css',
+  './assets/css/style-tablet.css',
+  './assets/css/style.css',
+  './assets/font/fontawesome.ttf',
+  './assets/font/poppins.woff2',
+  './assets/img/favicon/128.ico',
+  './assets/img/favicon/64.ico',
+  './assets/img/favicon/32.ico',
+  './assets/img/favicon/16.ico',
+  './assets/img/logo/128.png',
+  './assets/img/logo/64.png',
+  './assets/img/logo/32.png',
+  './assets/img/logo/16.png'
 ]
 
 self.addEventListener('install', event => {
