@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1366px) {
+@media only screen and (min-width: 1024px) {
   body, html { font-size: 15px }
   .logo { width: 100px }
   .greetings { margin: 7.5% 0 0 }
