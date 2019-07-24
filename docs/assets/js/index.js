@@ -6,3 +6,13 @@ if ('serviceWorker' in navigator) {
     })
   })
 }
+
+const $ = el => document.querySelector(el)
+
+$('a.button').addEventListener('click', e => {
+  e.preventDefault()
+
+  $('#_').scrollIntoView({
+    behavior: 'smooth'
+  })
+})
